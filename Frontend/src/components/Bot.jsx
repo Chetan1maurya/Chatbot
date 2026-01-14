@@ -10,7 +10,7 @@ const Bot = () => {
   const handleSendMessage = async () => {
     setLoading(true);
     try {
-      const response = await axios.post("http://localhost:3000/bot/v1/message", {
+      const response = await axios.post(`${VITE_API_URL}/bot/v1/message`, {
         text: input,
       });
       const data = response.data;
