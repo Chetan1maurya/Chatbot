@@ -21,6 +21,7 @@ const Bot = () => {
         { text: data.botMessage , sender: "bot" },
       ]);
     } catch (error) {
+      console.log(API_URL)
       console.log("Error sending messages: ", error);
     }
     setInput("");
