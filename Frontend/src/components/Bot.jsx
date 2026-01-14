@@ -86,7 +86,7 @@ const Bot = () => {
                 onChange={(e) => setInput(e.target.value)}
                 onKeyDown={handleKeyPress}
                 />
-                <button onClick={handleSendMessage} className="bg-green-600 hover:bg-green-700 px-4 py-1 rounded-full text-white font-medium transition-colors">
+                <button onClick={handleSendMessage} className="bg-green-600 hover:bg-green-700 px-4 py-1 rounded-full text-white font-medium transition-colors cursor-pointer">
                     Send
                 </button>
             </div>
