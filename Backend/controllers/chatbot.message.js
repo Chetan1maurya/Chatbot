@@ -32,13 +32,12 @@ export const Message = async (req, res) => {
       "how are you": "Chota Don ko kisi se problem nahi hai, kisi aur ko jarur chota don se problem ho sakti hai...",
       "what is your name?": "I’m ChatBot, your virtual assistant.",
       "who made you":
-        "I was created by developers to help answer your questions.",
+        "I was created by Chetan Maurya to make you happy.",
       "tell me a joke":
         "Why don’t skeletons fight each other? They don’t have the guts!",
-      "what is the time": "I can’t see a clock, but your device should know.",
       "bye": "Goodbye! Have a great day.",
       "thank you": "You’re welcome!",
-      "i love you": "That’s sweet! I’m here to help you anytime.",
+      "i love you": "That’s sweet!, but I cannot kiss you, contact Chetan for that purpose.",
       "where are you from": "I live in the cloud — no rent, no bills!",
     };
     const normalizedText = text.toLowerCase().trim();
